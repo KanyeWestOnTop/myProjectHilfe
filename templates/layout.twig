@@ -5,12 +5,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Layout</title>
 	</head>
+    {% if entry.sigmaBackgrounds %}
 	<body style="background-image: url({{ entry.sigmaBackgrounds.one().url }})">
-        <header>
-            <nav>
-                {% include 'base/navbar.twig' %}
-            </nav>
-        </header>
+    {% else %}
+    <body>
+    {% endif %}
+		<header>
+			<nav>
+				{% include 'base/navbar.twig' %}
+			</nav>
+		</header>
 		<main>
 			{% block content %}{% endblock %}
 		</main>
