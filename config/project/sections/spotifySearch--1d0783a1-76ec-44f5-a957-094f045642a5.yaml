@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - c1bfa06f-237d-4c90-98e3-8532fe307960 # Spotify Search
+handle: spotifySearch
+maxAuthors: 1
+name: 'Spotify Search'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  098f0772-4c1b-4486-bf87-ec9678a5249b: # imgonnakms
+    enabledByDefault: true
+    hasUrls: true
+    template: _entry/spotifySearch.twig
+    uriFormat: spotify-search
+type: single
