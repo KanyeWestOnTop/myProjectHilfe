@@ -1,0 +1,24 @@
+dateModified: 1722260172
+email:
+  fromEmail: marrerkevin@gmail.com
+  fromName: imgonnakms
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    9e37425c-7e14-42b0-b193-085f0f2b102e: imgonnakms # imgonnakms
+    098f0772-4c1b-4486-bf87-ec9678a5249b: imgonnakms # imgonnakms
+    a74db08b-5408-4b74-aa6c-9b94d914c1fe: home # home
+    f37086e7-debc-477c-9e07-24df2742b1c1: home # home
+system:
+  edition: solo
+  live: true
+  name: imgonnakms
+  schemaVersion: 5.0.0.21
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true
